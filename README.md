@@ -51,6 +51,16 @@ These tests can be run using the following command:
 go test
 ```
 
+### Further testing
+
+After some ex-customers reported that some strings weren't being reversed correctly, management forced us to investigate and said our 3 tests didn't provide enough coverage.. our senior developer was about to manually add more tests but a new hire suggested using fuzz testing. 
+
+We uncovered some issues with our string reversal algorithm but have since rectified these, these fuzz tests can again be run using:
+
+```
+go test
+```
+
 ## Disclaimer
 
 This is 100% satire, relying on a third party service to perform such a trivial task is absurd.
