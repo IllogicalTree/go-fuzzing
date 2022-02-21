@@ -14,7 +14,7 @@ var joinArray = reverseArray.join("");
 ```
 
 Are you fed up with writing all of this just to reverse a string in javascript?
-We were to and decided to fix it.
+We were too and decided to fix it.
 
 ## Getting started
 
@@ -58,7 +58,7 @@ After some ex-customers reported that some strings weren't being reversed correc
 We uncovered some issues with our string reversal algorithm but have since rectified these, these fuzz tests can again be run using:
 
 ```
-go test
+go test -fuzz=Fuzz
 ```
 
 ## Disclaimer
