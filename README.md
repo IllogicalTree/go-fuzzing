@@ -41,6 +41,16 @@ Be amazed at the speedy and useful response
 }
 ```
 
+## Testing
+
+To ensure we deliver on our promise of reversing strings accurately our developers grudgingly added a very comprehensive suite of tests.
+
+These tests can be run using the following command:
+
+```
+go test
+```
+
 ## Disclaimer
 
 This is 100% satire, relying on a third party service to perform such a trivial task is absurd.
