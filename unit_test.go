@@ -13,7 +13,10 @@ func TestReverse(t *testing.T) {
 		{"12345", "54321"},
 	}
 	for _, tc := range testcases {
-		rev := Reverse(tc.input)
+		rev, err := Reverse(tc.input)
+		if err != nil {
+			t.Errorf("Error: Reverse(%q) == %q, expected %q", tc.input, rev, tc.expected)
+		}
 		if rev != tc.expected {
 			t.Errorf("Reverse(%q) == %q, expected %q", tc.input, rev, tc.expected)
 		}
